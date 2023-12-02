@@ -25,7 +25,7 @@ func main() {
 	fmt.Println(car, cost)
 
 	// car, cost := "405", 530 // Cause Error
-	car, year := "405", 1393 // atleast on new variable on the left side of :=
+	car, year := "405", 1393 // atleast one new variable on the left side of :=
 	_ = year
 
 	var opened = false
