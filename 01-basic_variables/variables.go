@@ -20,4 +20,12 @@ func main() {
 	name1 := "naseer"
 	_ = name1
 
+	// variables multiple declaration
+	car, cost := "Pars", 750
+	fmt.Println(car, cost)
+
+	// car, cost := "405", 530 // Cause Error
+	car, year := "405", 1393 // atleast on new variable on the left side of :=
+	_ = year
+
 }
