@@ -9,5 +9,15 @@ func main() {
 
 	var name = "moawezz"
 	_ = name // use this to prevent compile time error.
-	// fmt.Println("name:", name)
+	fmt.Println("name:", name)
+
+	// variables short declaration
+	s := "Go programminig language."
+	fmt.Println(s)
+
+	// name := "ali" // Error because declared once before.
+	name = "yasin" // this is okay.
+	name1 := "naseer"
+	_ = name1
+
 }
