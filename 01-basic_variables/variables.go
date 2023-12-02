@@ -53,4 +53,8 @@ func main() {
 	// swap variables
 	j, i = i, j
 	fmt.Println("after swap i,j:", i, j)
+
+	// user expression in :=
+	sum := 5 + 3.7
+	fmt.Println("sum:", sum)
 }
