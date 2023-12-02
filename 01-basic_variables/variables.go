@@ -8,6 +8,6 @@ func main() {
 	fmt.Println("age:", age)
 
 	var name = "moawezz"
-	_ = name
+	_ = name // use this to prevent compile time error.
 	// fmt.Println("name:", name)
 }
