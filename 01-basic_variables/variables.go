@@ -40,4 +40,8 @@ func main() {
 	)
 
 	fmt.Println(salary, firstName, gender)
+
+	// another way
+	var x, y, z int
+	fmt.Println(x, y, z)
 }
