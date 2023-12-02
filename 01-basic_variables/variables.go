@@ -12,7 +12,7 @@ func main() {
 	fmt.Println("name:", name)
 
 	// variables short declaration
-	s := "Go programminig language."
+	s := "Go programming language."
 	fmt.Println(s)
 
 	// name := "ali" // Error because declared once before.
@@ -48,5 +48,9 @@ func main() {
 	// multiple assignment
 	var i, j int
 	i, j = 1, 3
-	_, _ = i, j
+	fmt.Println("before swap i, j:", i, j)
+
+	// swap variables
+	j, i = i, j
+	fmt.Println("after swap i,j:", i, j)
 }
