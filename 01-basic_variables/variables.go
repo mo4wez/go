@@ -44,4 +44,9 @@ func main() {
 	// another way
 	var x, y, z int
 	fmt.Println(x, y, z)
+
+	// multiple assignment
+	var i, j int
+	i, j = 1, 3
+	_, _ = i, j
 }
