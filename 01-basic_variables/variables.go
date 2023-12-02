@@ -28,4 +28,16 @@ func main() {
 	car, year := "405", 1393 // atleast on new variable on the left side of :=
 	_ = year
 
+	var opened = false
+	opened, file := true, "names.txt"
+	_, _ = opened, file
+
+	// another way to declare multipe variables for good readability
+	var (
+		salary    float64
+		firstName string
+		gender    bool
+	)
+
+	fmt.Println(salary, firstName, gender)
 }
